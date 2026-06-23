@@ -1,0 +1,72 @@
+{
+  "run_date": "2026-06-17T10:49:22.890363",
+  "summary": {
+    "total": 12,
+    "passed": 5,
+    "failed": 0,
+    "warned": 0,
+    "info": 7
+  },
+  "results": [
+    {
+      "test": "orders_clean rows in",
+      "result": "INFO",
+      "value": "99441"
+    },
+    {
+      "test": "orders_clean rows out",
+      "result": "PASS",
+      "value": "99441"
+    },
+    {
+      "test": "products_clean rows in",
+      "result": "INFO",
+      "value": "32951"
+    },
+    {
+      "test": "products_clean rows out",
+      "result": "PASS",
+      "value": "32951"
+    },
+    {
+      "test": "customers_clean rows in",
+      "result": "INFO",
+      "value": "99441"
+    },
+    {
+      "test": "customers_clean rows out",
+      "result": "PASS",
+      "value": "99441"
+    },
+    {
+      "test": "customers_clean duplicate rows dropped",
+      "result": "INFO",
+      "value": "0"
+    },
+    {
+      "test": "geolocation_clean rows in",
+      "result": "INFO",
+      "value": "1000163"
+    },
+    {
+      "test": "geolocation_clean rows out",
+      "result": "PASS",
+      "value": "19015"
+    },
+    {
+      "test": "geolocation_clean duplicate rows dropped",
+      "result": "INFO",
+      "value": "981148"
+    },
+    {
+      "test": "reviews_clean rows in",
+      "result": "INFO",
+      "value": "99224"
+    },
+    {
+      "test": "reviews_clean rows out",
+      "result": "PASS",
+      "value": "99224"
+    }
+  ]
+}

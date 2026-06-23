@@ -1,0 +1,66 @@
+{
+  "run_date": "2026-06-16T09:21:35.027097",
+  "summary": {
+    "total": 11,
+    "passed": 11,
+    "failed": 0,
+    "warned": 0
+  },
+  "results": [
+    {
+      "test": "No null order_ids in orders",
+      "result": "PASS",
+      "details": ""
+    },
+    {
+      "test": "No duplicate order_ids",
+      "result": "PASS",
+      "details": "0 duplicate(s) found"
+    },
+    {
+      "test": "No null customer_ids in orders",
+      "result": "PASS",
+      "details": ""
+    },
+    {
+      "test": "No null customer_ids in customers",
+      "result": "PASS",
+      "details": ""
+    },
+    {
+      "test": "No duplicate customer_ids",
+      "result": "PASS",
+      "details": "0 duplicate(s) found"
+    },
+    {
+      "test": "No negative prices in order_items",
+      "result": "PASS",
+      "details": "0 negative price(s) found"
+    },
+    {
+      "test": "No null product_ids in order_items",
+      "result": "PASS",
+      "details": ""
+    },
+    {
+      "test": "All order_items have matching order",
+      "result": "PASS",
+      "details": "0 unmatched order_id(s) found"
+    },
+    {
+      "test": "No negative payment values",
+      "result": "PASS",
+      "details": "0 negative value(s) found"
+    },
+    {
+      "test": "No null payment values",
+      "result": "PASS",
+      "details": ""
+    },
+    {
+      "test": "No null product_ids in products",
+      "result": "PASS",
+      "details": ""
+    }
+  ]
+}
