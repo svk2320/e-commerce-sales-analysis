@@ -429,3 +429,14 @@ e-commerce-sales-analysis/
 - **RFM frequency compression is a real analytical trap** — when most customers have exactly one order, F-score quartile boundaries collapse and segment labels must be interpreted relative to this dataset's behavioral range, not as absolute archetypes.
 - **Grain management matters more than it looks** — `order_payments` has multiple rows per order, so `SUM(payment_value)` over the full table overstates revenue without order-level aggregation first.
 - **Power BI with a live PostgreSQL connection beats CSV imports** — DAX measures aggregate against validated data at query time, keeping metrics trustworthy without pre-aggregated exports.
+
+
+---
+
+## Full Project Availability
+
+This repository showcases the core architecture, methodology, and selected outputs of the project.
+
+The complete implementation is maintained in a private repository because it contains proprietary work, large datasets, or materials that cannot be shared publicly.
+
+Recruiters and hiring managers interested in reviewing the full project may contact me via LinkedIn or email to arrange access or a walkthrough.
